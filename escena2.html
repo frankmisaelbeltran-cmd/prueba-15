@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fragmentos</title>
+  <link rel="stylesheet" href="escena2.css" />
+</head>
+<body>
+
+  <!-- Fondo -->
+  <div class="background"></div>
+
+  <!-- Contenedor principal -->
+  <main class="container">
+
+    <!-- Espacio para foto -->
+    <div class="photo-frame">
+      <img id="photo" src="img/foto-placeholder.jpg" alt="recuerdo">
+    </div>
+
+    <!-- Palabras -->
+    <div class="words">
+      <div class="word" data-text="Aquí escribes lo que significa esta palabra para ti. Algo romántico.">Siempre</div>
+      <div class="word" data-text="Aquí va otro recuerdo, algo íntimo, suave, sincero.">Luz</div>
+      <div class="word" data-text="Este puede ser un momento difícil que terminó en amor.">Caos</div>
+      <div class="word" data-text="Algo que solo ustedes entienden.">Nosotros</div>
+      <div class="word" data-text="Un cierre bonito, una promesa.">Eterno</div>
+    </div>
+
+  </main>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <p id="modalText"></p>
+      <button id="closeModal">Cerrar</button>
+    </div>
+  </div>
+
+  <!-- Audio (si quieres usar música aquí también) -->
+  <!--
+  <audio id="bgMusic" src="audio/musica2.mp3" loop></audio>
+  -->
+
+  <script src="escena2.js"></script>
+</body>
+</html>
